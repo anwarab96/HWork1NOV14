@@ -21,4 +21,9 @@ public class DesktopComputer extends ElectronicsDevice implements Computer{
 	public void CPU(){
 		System.out.println("it has CPU");
 	}
+	@Override
+	public int memorySize() {
+		
+		return 0;
+	}
 }

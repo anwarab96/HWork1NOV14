@@ -4,7 +4,12 @@ public class Bank {
 	int rate;
 	void soverienBank(int rate){
 		int profit = getInterest();
-		System.out.println("the ineterest "+ interest);
+		String interest = null;
+		System.out.println("the ineterest " + interest);
+	}
+	private int getInterest() {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 
 }
